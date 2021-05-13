@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Activity"
+    android:background="@drawable/bacground">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/egypt_flag2"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الدخول"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"
+        android:textSize="70dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:id="@+id/text_e"
+        />
+    <EditText
+
+        android:drawableLeft="@drawable/email"
+        android:textSize="20dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text_e"
+        android:id="@+id/edt_email"
+        android:hint="البريد الاكتروني"
+        android:background="@drawable/background_edit"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingLeft="5dp"
+        />
+    <EditText
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/lock"
+        android:background="@drawable/background_edit"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edt_email"
+        android:id="@+id/edt_pass"
+        android:inputType="textPassword"
+        android:hint="كلمة المرور"
+        android:textAlignment="center"
+
+
+        />
+    <Button
+        android:text="دخول"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edt_pass"
+        android:id="@+id/btn_con"
+        android:background="@drawable/background_edit"
+
+        />
+    <TextView
+
+        android:text="انشاء حساب جديد"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_con"
+        android:id="@+id/text_link"
+        />
+</RelativeLayout>

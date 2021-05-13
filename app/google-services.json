@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "537731223587",
+    "firebase_url": "https://fir-uploadimage-62802.firebaseio.com",
+    "project_id": "fir-uploadimage-62802",
+    "storage_bucket": "fir-uploadimage-62802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537731223587:android:336553695667f770",
+        "android_client_info": {
+          "package_name": "com.example.shehab.complainant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537731223587-p9ipt42bfg8i0bdct0671tioh653gpkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shehab.complainant",
+            "certificate_hash": "d0ae45e895863172ee257db9ade3dd5af24e959a"
+          }
+        },
+        {
+          "client_id": "537731223587-b57a4omou1cj7fn00mvn93udbbpmhkuk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shehab.complainant",
+            "certificate_hash": "aac9393e3d66c9b5358776500e647aac2936c88d"
+          }
+        },
+        {
+          "client_id": "537731223587-2fgvhcdvrheqgm6tjm1kt4ctf8ptsr8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkrZJlPUdYcwM4N_TE_3-o9B85da9og-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537731223587-2fgvhcdvrheqgm6tjm1kt4ctf8ptsr8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

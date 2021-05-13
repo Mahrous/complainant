@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_line">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/elmargelgdeda"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+<Button
+    style="@style/Widget.AppCompat.Button.Borderless"
+    android:id="@+id/emargelgdeda"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/elmarg_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:text="المرج الجديده"
+                        android:textColor="#000"/>
+            </LinearLayout>
+        <Button
+            android:id="@+id/elmarg"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/azptElnkhl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/ainshms"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/mtrea"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/hlmeazatoon"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/hdeakzatoon"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/sreaaopaa"
+            android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/hmaamaatopaa"
+            android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/kopreopaa"
+            android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/mnsheasadr"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/demerdash"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/ghamraa"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/shohdaa"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/ahmedorabe"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/gmalabdelnaser"
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/sadat"
+            android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/sadzaghlol"
+            android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/elsedazinb"
+            android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/elmalekelsaleh"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/marregrges"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/elzhreaa"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/darelsalam"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/hadaekelmaadee"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/elmaadee"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/thenkatelmaadee"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/toraelbld"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/costseka"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/toraasment"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/elmassraa"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/hdeakhelwan"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/wadehof"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/gamaathelwan"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/ainhelwan"
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/helwan"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

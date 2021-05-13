@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setup_Activity"
+    android:background="@drawable/bacground">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/egypt_flag2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+
+        android:layout_centerVertical="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخل بياناتك"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="40dp"/>
+        <AutoCompleteTextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="ادخل اسمك الثلاثي"
+            android:textStyle="bold"
+            android:textColorHint="#fff"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:background="@drawable/background_edit"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:id="@+id/setup_userName"
+            android:layout_marginBottom="10dp"
+            />
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="ادخل رقم الهاتف"
+            android:textStyle="bold"
+            android:textColorHint="#fff"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:background="@drawable/background_edit"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:inputType="text"
+            android:id="@+id/setup_fullName"
+            android:layout_marginBottom="10dp"
+
+            />
+        <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="ادخل محافظتك"
+
+            android:textStyle="bold"
+            android:textColorHint="#fff"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:background="@drawable/background_edit"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:inputType="text"
+            android:id="@+id/setup_countryName"
+            android:layout_marginBottom="10dp"
+
+            />
+        <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="ادخل الرقم القومي"
+            android:textStyle="bold"
+            android:textColorHint="#fff"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:background="@drawable/background_edit"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:inputType="text"
+            android:id="@+id/setup_number_gov"
+            android:layout_marginBottom="10dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:text="تسجيل"
+            android:background="@drawable/background_edit"
+            android:id="@+id/setup_information_button"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="36dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

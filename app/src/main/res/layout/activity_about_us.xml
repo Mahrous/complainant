@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us"
+    android:background="@drawable/bacground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="من نحن:
+نحن مجموعه من شباب الذين درسو في معاهد العبور واستخدمو المحتوي العلمي الذي قدمه  المعهد في افاده الوطن من خلال توفير احتياجات التواصل مع الحكومه سواء كان تواصل اخباري او تواصل من اجل تقديم اقتراحات او شكاوي ومن هنا بداءت فكرتنا في تطوير هذا البرنامج .....
+تحت اشراف  ومساعده الدكتور محمد مسعد "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="فريق العمل:
+"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit"
+        android:text="سارا مجدي فؤاد"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit"
+        android:text="خلود علي السيد"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit"
+        android:text="اسراء عاطف احمد"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit"
+        android:text="مي محمد عبدالعزيز"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_edit"
+    android:text="اسراء محمد احمد"
+    android:textAlignment="center"
+    android:textColor="#fff"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/background_edit"
+        android:text="احمد محمد محمد"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit"
+        android:text="محمد طارق راضي"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit"
+        android:text="اسلام السيد محمد عرفه"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>

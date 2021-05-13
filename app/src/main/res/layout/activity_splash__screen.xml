@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash_Screen"
+    android:background="@drawable/bacground">
+
+    <ImageView
+        android:id="@+id/imagemain"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/final_icon_pyaramids" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagemain"
+        android:layout_alignParentStart="true"
+        android:text="لخلق مجتمع متطور"
+        android:textAlignment="center"
+        android:textColor="#f4952a"
+        android:textSize="30dp"
+
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/loadprograss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Metro_activity"
+    android:background="@drawable/bacground">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/metro_icon"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_edit"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="الخط الاول"
+            android:id="@+id/first_line"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_edit"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="الخط الثاني"
+            android:id="@+id/second_line"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_edit"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="الخط الثالث"
+            android:id="@+id/third_line"/>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
